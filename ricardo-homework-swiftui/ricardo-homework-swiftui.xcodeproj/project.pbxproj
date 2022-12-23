@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AB4747128DF46B1001D30C0 /* SuccessScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB4747028DF46B1001D30C0 /* SuccessScreen.swift */; };
+		6ABA58E128DF320100CF81A6 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABA58E028DF320100CF81A6 /* Main.swift */; };
+		6ABA58E328DF320100CF81A6 /* RegistrationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABA58E228DF320100CF81A6 /* RegistrationScreen.swift */; };
+		6ABA58E528DF320200CF81A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABA58E428DF320200CF81A6 /* Assets.xcassets */; };
+		6ABA58E828DF320200CF81A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABA58E728DF320200CF81A6 /* Preview Assets.xcassets */; };
+		6ABA58F228DF320200CF81A6 /* ricardo_homework_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABA58F128DF320200CF81A6 /* ricardo_homework_swiftuiTests.swift */; };
+		6ABA58FC28DF320200CF81A6 /* ricardo_homework_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABA58FB28DF320200CF81A6 /* ricardo_homework_swiftuiUITests.swift */; };
+		6ABA58FE28DF320200CF81A6 /* ricardo_homework_swiftuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABA58FD28DF320200CF81A6 /* ricardo_homework_swiftuiUITestsLaunchTests.swift */; };
+		6ABA590E28DF33C700CF81A6 /* CenteredScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABA590D28DF33C700CF81A6 /* CenteredScrollView.swift */; };
+		6ABA591028DF351200CF81A6 /* TextFieldWithError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABA590F28DF351200CF81A6 /* TextFieldWithError.swift */; };
+		6ABA591428DF44C200CF81A6 /* RootScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABA591328DF44C200CF81A6 /* RootScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ABA58EE28DF320200CF81A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ABA58D528DF320100CF81A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABA58DC28DF320100CF81A6;
+			remoteInfo = "ricardo-homework-swiftui";
+		};
+		6ABA58F828DF320200CF81A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ABA58D528DF320100CF81A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABA58DC28DF320100CF81A6;
+			remoteInfo = "ricardo-homework-swiftui";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6AB4747028DF46B1001D30C0 /* SuccessScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessScreen.swift; sourceTree = "<group>"; };
+		6ABA58DD28DF320100CF81A6 /* ricardo-homework-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ricardo-homework-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABA58E028DF320100CF81A6 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		6ABA58E228DF320100CF81A6 /* RegistrationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreen.swift; sourceTree = "<group>"; };
+		6ABA58E428DF320200CF81A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ABA58E728DF320200CF81A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6ABA58ED28DF320200CF81A6 /* ricardo-homework-swiftuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ricardo-homework-swiftuiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABA58F128DF320200CF81A6 /* ricardo_homework_swiftuiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ricardo_homework_swiftuiTests.swift; sourceTree = "<group>"; };
+		6ABA58F728DF320200CF81A6 /* ricardo-homework-swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ricardo-homework-swiftuiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABA58FB28DF320200CF81A6 /* ricardo_homework_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ricardo_homework_swiftuiUITests.swift; sourceTree = "<group>"; };
+		6ABA58FD28DF320200CF81A6 /* ricardo_homework_swiftuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ricardo_homework_swiftuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6ABA590D28DF33C700CF81A6 /* CenteredScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteredScrollView.swift; sourceTree = "<group>"; };
+		6ABA590F28DF351200CF81A6 /* TextFieldWithError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithError.swift; sourceTree = "<group>"; };
+		6ABA591328DF44C200CF81A6 /* RootScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ABA58DA28DF320100CF81A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABA58EA28DF320200CF81A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABA58F428DF320200CF81A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ABA58D428DF320100CF81A6 = {
+			isa = PBXGroup;
+			children = (
+				6ABA58DF28DF320100CF81A6 /* ricardo-homework-swiftui */,
+				6ABA58F028DF320200CF81A6 /* ricardo-homework-swiftuiTests */,
+				6ABA58FA28DF320200CF81A6 /* ricardo-homework-swiftuiUITests */,
+				6ABA58DE28DF320100CF81A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ABA58DE28DF320100CF81A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ABA58DD28DF320100CF81A6 /* ricardo-homework-swiftui.app */,
+				6ABA58ED28DF320200CF81A6 /* ricardo-homework-swiftuiTests.xctest */,
+				6ABA58F728DF320200CF81A6 /* ricardo-homework-swiftuiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ABA58DF28DF320100CF81A6 /* ricardo-homework-swiftui */ = {
+			isa = PBXGroup;
+			children = (
+				6ABA590A28DF33A400CF81A6 /* Common */,
+				6ABA58E028DF320100CF81A6 /* Main.swift */,
+				6ABA591328DF44C200CF81A6 /* RootScreen.swift */,
+				6ABA58E228DF320100CF81A6 /* RegistrationScreen.swift */,
+				6ABA58E428DF320200CF81A6 /* Assets.xcassets */,
+				6ABA58E628DF320200CF81A6 /* Preview Content */,
+			);
+			path = "ricardo-homework-swiftui";
+			sourceTree = "<group>";
+		};
+		6ABA58E628DF320200CF81A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6ABA58E728DF320200CF81A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6ABA58F028DF320200CF81A6 /* ricardo-homework-swiftuiTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ABA58F128DF320200CF81A6 /* ricardo_homework_swiftuiTests.swift */,
+			);
+			path = "ricardo-homework-swiftuiTests";
+			sourceTree = "<group>";
+		};
+		6ABA58FA28DF320200CF81A6 /* ricardo-homework-swiftuiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6ABA58FB28DF320200CF81A6 /* ricardo_homework_swiftuiUITests.swift */,
+				6ABA58FD28DF320200CF81A6 /* ricardo_homework_swiftuiUITestsLaunchTests.swift */,
+			);
+			path = "ricardo-homework-swiftuiUITests";
+			sourceTree = "<group>";
+		};
+		6ABA590A28DF33A400CF81A6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6ABA590D28DF33C700CF81A6 /* CenteredScrollView.swift */,
+				6ABA590F28DF351200CF81A6 /* TextFieldWithError.swift */,
+				6AB4747028DF46B1001D30C0 /* SuccessScreen.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ABA58DC28DF320100CF81A6 /* ricardo-homework-swiftui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABA590128DF320200CF81A6 /* Build configuration list for PBXNativeTarget "ricardo-homework-swiftui" */;
+			buildPhases = (
+				6ABA58D928DF320100CF81A6 /* Sources */,
+				6ABA58DA28DF320100CF81A6 /* Frameworks */,
+				6ABA58DB28DF320100CF81A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ricardo-homework-swiftui";
+			productName = "ricardo-homework-swiftui";
+			productReference = 6ABA58DD28DF320100CF81A6 /* ricardo-homework-swiftui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ABA58EC28DF320200CF81A6 /* ricardo-homework-swiftuiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABA590428DF320200CF81A6 /* Build configuration list for PBXNativeTarget "ricardo-homework-swiftuiTests" */;
+			buildPhases = (
+				6ABA58E928DF320200CF81A6 /* Sources */,
+				6ABA58EA28DF320200CF81A6 /* Frameworks */,
+				6ABA58EB28DF320200CF81A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ABA58EF28DF320200CF81A6 /* PBXTargetDependency */,
+			);
+			name = "ricardo-homework-swiftuiTests";
+			productName = "ricardo-homework-swiftuiTests";
+			productReference = 6ABA58ED28DF320200CF81A6 /* ricardo-homework-swiftuiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6ABA58F628DF320200CF81A6 /* ricardo-homework-swiftuiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABA590728DF320200CF81A6 /* Build configuration list for PBXNativeTarget "ricardo-homework-swiftuiUITests" */;
+			buildPhases = (
+				6ABA58F328DF320200CF81A6 /* Sources */,
+				6ABA58F428DF320200CF81A6 /* Frameworks */,
+				6ABA58F528DF320200CF81A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ABA58F928DF320200CF81A6 /* PBXTargetDependency */,
+			);
+			name = "ricardo-homework-swiftuiUITests";
+			productName = "ricardo-homework-swiftuiUITests";
+			productReference = 6ABA58F728DF320200CF81A6 /* ricardo-homework-swiftuiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ABA58D528DF320100CF81A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					6ABA58DC28DF320100CF81A6 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					6ABA58EC28DF320200CF81A6 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 6ABA58DC28DF320100CF81A6;
+					};
+					6ABA58F628DF320200CF81A6 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 6ABA58DC28DF320100CF81A6;
+					};
+				};
+			};
+			buildConfigurationList = 6ABA58D828DF320100CF81A6 /* Build configuration list for PBXProject "ricardo-homework-swiftui" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ABA58D428DF320100CF81A6;
+			productRefGroup = 6ABA58DE28DF320100CF81A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ABA58DC28DF320100CF81A6 /* ricardo-homework-swiftui */,
+				6ABA58EC28DF320200CF81A6 /* ricardo-homework-swiftuiTests */,
+				6ABA58F628DF320200CF81A6 /* ricardo-homework-swiftuiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ABA58DB28DF320100CF81A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABA58E828DF320200CF81A6 /* Preview Assets.xcassets in Resources */,
+				6ABA58E528DF320200CF81A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABA58EB28DF320200CF81A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABA58F528DF320200CF81A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ABA58D928DF320100CF81A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABA590E28DF33C700CF81A6 /* CenteredScrollView.swift in Sources */,
+				6AB4747128DF46B1001D30C0 /* SuccessScreen.swift in Sources */,
+				6ABA58E328DF320100CF81A6 /* RegistrationScreen.swift in Sources */,
+				6ABA591028DF351200CF81A6 /* TextFieldWithError.swift in Sources */,
+				6ABA58E128DF320100CF81A6 /* Main.swift in Sources */,
+				6ABA591428DF44C200CF81A6 /* RootScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABA58E928DF320200CF81A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABA58F228DF320200CF81A6 /* ricardo_homework_swiftuiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABA58F328DF320200CF81A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABA58FC28DF320200CF81A6 /* ricardo_homework_swiftuiUITests.swift in Sources */,
+				6ABA58FE28DF320200CF81A6 /* ricardo_homework_swiftuiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ABA58EF28DF320200CF81A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ABA58DC28DF320100CF81A6 /* ricardo-homework-swiftui */;
+			targetProxy = 6ABA58EE28DF320200CF81A6 /* PBXContainerItemProxy */;
+		};
+		6ABA58F928DF320200CF81A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ABA58DC28DF320100CF81A6 /* ricardo-homework-swiftui */;
+			targetProxy = 6ABA58F828DF320200CF81A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6ABA58FF28DF320200CF81A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6ABA590028DF320200CF81A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ABA590228DF320200CF81A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ricardo-homework-swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = J4Y28BA299;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swiss.ricardo.iphone.ricardo-homework-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6ABA590328DF320200CF81A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ricardo-homework-swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = J4Y28BA299;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swiss.ricardo.iphone.ricardo-homework-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6ABA590528DF320200CF81A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J4Y28BA299;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swiss.ricardo.iphone.ricardo-homework-swiftuiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ricardo-homework-swiftui.app/ricardo-homework-swiftui";
+			};
+			name = Debug;
+		};
+		6ABA590628DF320200CF81A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J4Y28BA299;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swiss.ricardo.iphone.ricardo-homework-swiftuiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ricardo-homework-swiftui.app/ricardo-homework-swiftui";
+			};
+			name = Release;
+		};
+		6ABA590828DF320200CF81A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J4Y28BA299;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swiss.ricardo.iphone.ricardo-homework-swiftuiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ricardo-homework-swiftui";
+			};
+			name = Debug;
+		};
+		6ABA590928DF320200CF81A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J4Y28BA299;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swiss.ricardo.iphone.ricardo-homework-swiftuiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ricardo-homework-swiftui";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ABA58D828DF320100CF81A6 /* Build configuration list for PBXProject "ricardo-homework-swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABA58FF28DF320200CF81A6 /* Debug */,
+				6ABA590028DF320200CF81A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABA590128DF320200CF81A6 /* Build configuration list for PBXNativeTarget "ricardo-homework-swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABA590228DF320200CF81A6 /* Debug */,
+				6ABA590328DF320200CF81A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABA590428DF320200CF81A6 /* Build configuration list for PBXNativeTarget "ricardo-homework-swiftuiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABA590528DF320200CF81A6 /* Debug */,
+				6ABA590628DF320200CF81A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABA590728DF320200CF81A6 /* Build configuration list for PBXNativeTarget "ricardo-homework-swiftuiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABA590828DF320200CF81A6 /* Debug */,
+				6ABA590928DF320200CF81A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ABA58D528DF320100CF81A6 /* Project object */;
+}
