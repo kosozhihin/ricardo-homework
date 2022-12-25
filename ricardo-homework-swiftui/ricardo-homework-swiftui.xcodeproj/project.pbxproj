@@ -12,7 +12,6 @@
 		6ABA58E328DF320100CF81A6 /* RegistrationScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABA58E228DF320100CF81A6 /* RegistrationScreenView.swift */; };
 		6ABA58E528DF320200CF81A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABA58E428DF320200CF81A6 /* Assets.xcassets */; };
 		6ABA58E828DF320200CF81A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABA58E728DF320200CF81A6 /* Preview Assets.xcassets */; };
-		6ABA58F228DF320200CF81A6 /* ricardo_homework_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABA58F128DF320200CF81A6 /* ricardo_homework_swiftuiTests.swift */; };
 		6ABA58FC28DF320200CF81A6 /* ricardo_homework_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABA58FB28DF320200CF81A6 /* ricardo_homework_swiftuiUITests.swift */; };
 		6ABA58FE28DF320200CF81A6 /* ricardo_homework_swiftuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABA58FD28DF320200CF81A6 /* ricardo_homework_swiftuiUITestsLaunchTests.swift */; };
 		6ABA590E28DF33C700CF81A6 /* CenteredScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABA590D28DF33C700CF81A6 /* CenteredScrollView.swift */; };
@@ -21,6 +20,7 @@
 		7B8C9C6129572994002EDF46 /* TextFieldWithErrorViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C9C6029572994002EDF46 /* TextFieldWithErrorViewmodel.swift */; };
 		7B8C9C632957380E002EDF46 /* RegistrationScreenViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C9C622957380E002EDF46 /* RegistrationScreenViewmodel.swift */; };
 		7B8C9C652958A66E002EDF46 /* RootScreenViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C9C642958A66E002EDF46 /* RootScreenViewmodel.swift */; };
+		7B8C9C6A2958B369002EDF46 /* ricardo_homework_TextFieldWithErrorViewmodelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C9C692958B369002EDF46 /* ricardo_homework_TextFieldWithErrorViewmodelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,6 @@
 		6ABA58E428DF320200CF81A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6ABA58E728DF320200CF81A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6ABA58ED28DF320200CF81A6 /* ricardo-homework-swiftuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ricardo-homework-swiftuiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ABA58F128DF320200CF81A6 /* ricardo_homework_swiftuiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ricardo_homework_swiftuiTests.swift; sourceTree = "<group>"; };
 		6ABA58F728DF320200CF81A6 /* ricardo-homework-swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ricardo-homework-swiftuiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ABA58FB28DF320200CF81A6 /* ricardo_homework_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ricardo_homework_swiftuiUITests.swift; sourceTree = "<group>"; };
 		6ABA58FD28DF320200CF81A6 /* ricardo_homework_swiftuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ricardo_homework_swiftuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		7B8C9C6029572994002EDF46 /* TextFieldWithErrorViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithErrorViewmodel.swift; sourceTree = "<group>"; };
 		7B8C9C622957380E002EDF46 /* RegistrationScreenViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreenViewmodel.swift; sourceTree = "<group>"; };
 		7B8C9C642958A66E002EDF46 /* RootScreenViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootScreenViewmodel.swift; sourceTree = "<group>"; };
+		7B8C9C692958B369002EDF46 /* ricardo_homework_TextFieldWithErrorViewmodelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ricardo_homework_TextFieldWithErrorViewmodelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +128,7 @@
 		6ABA58F028DF320200CF81A6 /* ricardo-homework-swiftuiTests */ = {
 			isa = PBXGroup;
 			children = (
-				6ABA58F128DF320200CF81A6 /* ricardo_homework_swiftuiTests.swift */,
+				7B8C9C692958B369002EDF46 /* ricardo_homework_TextFieldWithErrorViewmodelTests.swift */,
 			);
 			path = "ricardo-homework-swiftuiTests";
 			sourceTree = "<group>";
@@ -342,7 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ABA58F228DF320200CF81A6 /* ricardo_homework_swiftuiTests.swift in Sources */,
+				7B8C9C6A2958B369002EDF46 /* ricardo_homework_TextFieldWithErrorViewmodelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

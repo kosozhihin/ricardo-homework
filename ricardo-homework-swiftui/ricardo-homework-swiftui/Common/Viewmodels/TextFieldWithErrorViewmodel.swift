@@ -41,7 +41,6 @@ class TextFieldWithErrorViewmodel : ObservableObject {
     
     private func validateText() {
         guard let validationRule = self.validationRule else {
-            self.isValid = true
             return
         }
         let errorMessage = validationRule(self.text)
