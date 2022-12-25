@@ -21,6 +21,8 @@
 		7B8C9C632957380E002EDF46 /* RegistrationScreenViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C9C622957380E002EDF46 /* RegistrationScreenViewmodel.swift */; };
 		7B8C9C652958A66E002EDF46 /* RootScreenViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C9C642958A66E002EDF46 /* RootScreenViewmodel.swift */; };
 		7B8C9C6A2958B369002EDF46 /* ricardo_homework_TextFieldWithErrorViewmodelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C9C692958B369002EDF46 /* ricardo_homework_TextFieldWithErrorViewmodelTests.swift */; };
+		7B9736AE2958C117005A8824 /* FieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9736AD2958C117005A8824 /* FieldValidator.swift */; };
+		7B9736B02958C2A5005A8824 /* ricardo_homework_FieldValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9736AF2958C2A5005A8824 /* ricardo_homework_FieldValidatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		7B8C9C622957380E002EDF46 /* RegistrationScreenViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreenViewmodel.swift; sourceTree = "<group>"; };
 		7B8C9C642958A66E002EDF46 /* RootScreenViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootScreenViewmodel.swift; sourceTree = "<group>"; };
 		7B8C9C692958B369002EDF46 /* ricardo_homework_TextFieldWithErrorViewmodelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ricardo_homework_TextFieldWithErrorViewmodelTests.swift; sourceTree = "<group>"; };
+		7B9736AD2958C117005A8824 /* FieldValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldValidator.swift; sourceTree = "<group>"; };
+		7B9736AF2958C2A5005A8824 /* ricardo_homework_FieldValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ricardo_homework_FieldValidatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				7B8C9C692958B369002EDF46 /* ricardo_homework_TextFieldWithErrorViewmodelTests.swift */,
+				7B9736AF2958C2A5005A8824 /* ricardo_homework_FieldValidatorTests.swift */,
 			);
 			path = "ricardo-homework-swiftuiTests";
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 		6ABA590A28DF33A400CF81A6 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				7B9736AC2958C0EB005A8824 /* Helpers */,
 				7B8C9C5E2957294E002EDF46 /* Views */,
 				7B8C9C5F29572963002EDF46 /* Viewmodels */,
 			);
@@ -194,6 +200,14 @@
 				7B8C9C642958A66E002EDF46 /* RootScreenViewmodel.swift */,
 			);
 			path = Viewmodels;
+			sourceTree = "<group>";
+		};
+		7B9736AC2958C0EB005A8824 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7B9736AD2958C117005A8824 /* FieldValidator.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,6 +347,7 @@
 				6ABA58E328DF320100CF81A6 /* RegistrationScreenView.swift in Sources */,
 				6ABA591028DF351200CF81A6 /* TextFieldWithErrorView.swift in Sources */,
 				7B8C9C632957380E002EDF46 /* RegistrationScreenViewmodel.swift in Sources */,
+				7B9736AE2958C117005A8824 /* FieldValidator.swift in Sources */,
 				6ABA58E128DF320100CF81A6 /* Main.swift in Sources */,
 				6ABA591428DF44C200CF81A6 /* RootScreen.swift in Sources */,
 			);
@@ -342,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B9736B02958C2A5005A8824 /* ricardo_homework_FieldValidatorTests.swift in Sources */,
 				7B8C9C6A2958B369002EDF46 /* ricardo_homework_TextFieldWithErrorViewmodelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

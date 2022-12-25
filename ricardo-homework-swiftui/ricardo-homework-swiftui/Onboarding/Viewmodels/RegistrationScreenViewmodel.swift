@@ -13,25 +13,15 @@ class RegistrationScreenViewmodel : ObservableObject {
     
     private var onRegistrationSuccessful: () -> Void = {}
     
+    private let fieldValidator = FieldValidator()
+    
     init(onRegistrationSuccessful: @escaping () -> Void) {
         usernameViewmodel = TextFieldWithErrorViewmodel(
-            title: "Username", validationRule: validateUsername)
+            title: "Username", validationRule: fieldValidator.validateUsername)
         passwordViewmodel = TextFieldWithErrorViewmodel(
-            title: "Password", validationRule: validatePassword)
+            title: "Password", validationRule: fieldValidator.validatePassword)
         
         self.onRegistrationSuccessful = onRegistrationSuccessful
-    }
-    
-    private func validateUsername(username: String) -> String? {
-        return !username.isEmpty ? nil : "Username not valid"
-    }
-    
-    private func validatePassword(password: String) -> String? {
-        return password.count >= 6 &&
-               password.rangeOfCharacter(from: .letters) != nil &&
-               password.rangeOfCharacter(from: .decimalDigits) != nil &&
-               password.rangeOfCharacter(from: .alphanumerics.inverted) != nil
-            ? nil : "Password not valid"
     }
 
     public func registerButtonTapped() {
