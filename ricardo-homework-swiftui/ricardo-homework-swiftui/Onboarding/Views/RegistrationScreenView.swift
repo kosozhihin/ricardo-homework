@@ -23,10 +23,12 @@ struct RegistrationScreenView: View {
             TextFieldWithErrorView(
                 viewmodel: viewmodel.usernameViewmodel!
             )
+            .accessibilityIdentifier("usernameTextField")
 
             TextFieldWithErrorView(
                 viewmodel: viewmodel.passwordViewmodel!
             )
+            .accessibilityIdentifier("passwordTextField")
 
             Spacer().frame(height: 20)
 
@@ -44,6 +46,7 @@ struct RegistrationScreenView: View {
                     .background(Color.orange)
                     .cornerRadius(8)
             }
+            .accessibilityIdentifier("registrationButton")
 
             Spacer().frame(height: 100)
         }
