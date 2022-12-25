@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 class RegistrationScreenViewmodel : ObservableObject {    
     @Published var usernameViewmodel: TextFieldWithErrorViewmodel? = nil
@@ -17,9 +18,11 @@ class RegistrationScreenViewmodel : ObservableObject {
     
     init(onRegistrationSuccessful: @escaping () -> Void) {
         usernameViewmodel = TextFieldWithErrorViewmodel(
-            title: "Username", validationRule: fieldValidator.validateUsername)
+            title: String(localized: "Registration.UsernameTextField.Title"),
+            validationRule: fieldValidator.validateUsername)
         passwordViewmodel = TextFieldWithErrorViewmodel(
-            title: "Password", validationRule: fieldValidator.validatePassword)
+            title: String(localized: "Registration.PasswordTextField.Title"),
+            validationRule: fieldValidator.validatePassword)
         
         self.onRegistrationSuccessful = onRegistrationSuccessful
     }

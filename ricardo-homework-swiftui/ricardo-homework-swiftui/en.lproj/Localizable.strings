@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  ricardo-homework-swiftui
+
+  Created by Aleksei Kosozhikhin on 25.12.22.
+  
+*/
+
+"Common.Alert.OkButton.Text" = "Ok";
+
+"Registration.Alert.Text" = "Registration successful";
+"Registration.UsernameTextField.Title" = "Username";
+"Registration.UsernameErrorLabel.Text" = "Username not valid";
+"Registration.PasswordTextField.Title" = "Password";
+"Registration.PasswordErrorLabel.Text" = "Password not valid";
+"Registration.PasswordRequirementsLabel.Text" = "
+Password must meet the following requirements:
+    - At least 8 characters
+    - Must contain a letter
+    - Must contain a decimal
+    - Must contain a special character
+";
+"Registration.RegisterButton.Text" = "Register";

@@ -13,10 +13,10 @@ struct RootScreenView: View {
     var body: some View {
         RegistrationScreenView(viewmodel: viewmodel.registrationViewmodel)
         .alert(
-            "Registration successful",
+            "Registration.Alert.Text",
             isPresented: $viewmodel.isSuccessScreenShown,
             actions: {
-                Button("Ok", role: .cancel) {}
+                Button("Common.Alert.OkButton.Text", role: .cancel) {}
             })
     }
 }

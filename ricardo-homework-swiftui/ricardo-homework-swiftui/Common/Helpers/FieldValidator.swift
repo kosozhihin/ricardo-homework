@@ -9,7 +9,7 @@ import Foundation
 
 class FieldValidator {
     func validateUsername(username: String) -> String? {
-        return !username.isEmpty ? nil : "Username not valid"
+        return !username.isEmpty ? nil : String(localized: "Registration.UsernameErrorLabel.Text")
     }
     
     func validatePassword(password: String) -> String? {
@@ -17,6 +17,6 @@ class FieldValidator {
                password.rangeOfCharacter(from: .letters) != nil &&
                password.rangeOfCharacter(from: .decimalDigits) != nil &&
                password.rangeOfCharacter(from: .alphanumerics.inverted) != nil
-            ? nil : "Password not valid"
+            ? nil : String(localized: "Registration.PasswordErrorLabel.Text")
     }
 }

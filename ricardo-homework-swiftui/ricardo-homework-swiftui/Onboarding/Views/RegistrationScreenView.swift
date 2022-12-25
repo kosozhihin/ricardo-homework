@@ -9,14 +9,6 @@ import SwiftUI
 
 struct RegistrationScreenView: View {
     @ObservedObject var viewmodel: RegistrationScreenViewmodel
-    
-    private static let passwordRequirements = """
-            Password must meet the following requirements:
-                - At least 8 characters
-                - Must contain a letter
-                - Must contain a decimal
-                - Must contain a special character
-            """
 
     var body: some View {
         CenteredScrollView {
@@ -32,14 +24,14 @@ struct RegistrationScreenView: View {
 
             Spacer().frame(height: 20)
 
-            Text(Self.passwordRequirements)
+            Text("Registration.PasswordRequirementsLabel.Text")
                 .font(.system(.callout))
                 .frame(maxWidth: .infinity, alignment: .leading)
 
             Spacer().frame(height: 40)
 
             Button(action: viewmodel.registerButtonTapped) {
-                Text("Register")
+                Text("Registration.RegisterButton.Text")
                     .foregroundColor(Color.white)
                     .frame(maxWidth: .infinity)
                     .frame(height: 44)
